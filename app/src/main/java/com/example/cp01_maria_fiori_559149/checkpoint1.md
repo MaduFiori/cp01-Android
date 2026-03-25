@@ -21,19 +21,19 @@ O objetivo desta prova é avaliar a capacidade de desenvolver um aplicativo Andr
 
 ## Explicação de cada evolução implementada
 
-1. **Configuração do ambiente e dependências**  
+1. Configuração do ambiente e dependências 
    Configuramos o projeto para usar Kotlin, Jetpack Compose e Navigation Compose com as versões corretas das bibliotecas, garantindo compatibilidade e ausência de conflitos.
 
-2. **Implementação da MainActivity com NavHost**  
+2. Implementação da MainActivity com NavHost 
    Criamos a `MainActivity` que contém o `NavHost` para controlar as rotas das telas, definindo o ponto inicial como a tela de Login.
 
-3. **Criação das telas composable**  
+3. Criação das telas composable 
    Desenvolvemos quatro funções composable (`telaLogin`, `telaMenu`, `telaPedidos` e `telaPerfil`) que representam as telas do app, cada uma com sua UI e lógica de navegação.
 
-4. **Configuração da navegação entre telas**  
+4. Configuração da navegação entre telas**  
    Implementamos a navegação usando o `NavController` para mover entre as telas conforme o usuário interage, como o botão "Entrar" na tela de Login que direciona para o Menu.
 
-5. **Aplicação do tema Material 3 e design básico**  
+5. Aplicação do tema Material 3 e design básico**  
    Aplicamos o tema padrão do Material 3 para garantir uma interface moderna, além de configurar cores e estilos básicos em cada tela.
 
 ---
