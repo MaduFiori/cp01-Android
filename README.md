@@ -39,16 +39,16 @@ Este commit implementa o tratamento de parâmetros opcionais, permitindo que a t
 ## Telas do Aplicativo
 
 ### Tela de Login
-![Tela Login](app/imagens/login.png)
+![Tela Login](app/src/imagens/login.png)
 
 ### Tela de Menu
-![Tela Menu](app/imagens/menu.png)
+![Tela Menu](app//srcimagens/menu.png)
 
 ### Tela de Pedidos
-![Tela Pedidos](app/imagens/pedidos.png)
+![Tela Pedidos](app/src/imagens/pedidos.png)
 
 ### Tela de Perfil
-![Tela Perfil](app/imagens/perfil.png)
+![Tela Perfil](app/src/imagens/perfil.png)
 
 ## Tecnologias
 
