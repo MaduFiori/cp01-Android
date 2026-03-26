@@ -19,26 +19,22 @@ Este projeto é um aplicativo Android desenvolvido com Jetpack Compose que apres
 
 O objetivo desta prova é avaliar a capacidade de desenvolver um aplicativo Android moderno usando Jetpack Compose, implementando navegação funcional entre telas, uso correto de temas e componentes visuais, além de organização de código em pacotes e arquivos separados para telas.
 
-## Explicação de cada evolução implementada
+## Explicação de cada commit
 
-1. Configuração do ambiente e dependências 
-   Configuramos o projeto para usar Kotlin, Jetpack Compose e Navigation Compose com as versões corretas das bibliotecas, garantindo compatibilidade e ausência de conflitos.
+1. Passagem de múltiplos parâmetros
 
-2. Implementação da MainActivity com NavHost 
-   Criamos a `MainActivity` que contém o `NavHost` para controlar as rotas das telas, definindo o ponto inicial como a tela de Login.
+Este commit implementa o envio de mais de uma informação entre telas do aplicativo. Em vez de passar apenas um dado, a aplicação passa a suportar múltiplos parâmetros simultaneamente, permitindo uma comunicação mais completa entre as Activities.
 
-3. Criação das telas composable 
-   Desenvolvemos quatro funções composable (`telaLogin`, `telaMenu`, `telaPedidos` e `telaPerfil`) que representam as telas do app, cada uma com sua UI e lógica de navegação.
+2. Inserindo valor ao parâmetro opcional na tela de Pedidos
 
-4. Configuração da navegação entre telas**  
-   Implementamos a navegação usando o `NavController` para mover entre as telas conforme o usuário interage, como o botão "Entrar" na tela de Login que direciona para o Menu.
+Neste commit, é definido um valor para um parâmetro opcional na tela de pedidos. Isso significa que, mesmo não sendo obrigatório, o parâmetro pode ser preenchido para alterar o comportamento da tela, como aplicar um desconto ou configurar alguma informação adicional.
 
-5. Aplicação do tema Material 3 e design básico**  
-   Aplicamos o tema padrão do Material 3 para garantir uma interface moderna, além de configurar cores e estilos básicos em cada tela.
+3. Passagem de parâmetros opcionais na tela de Pedidos
 
----
+Este commit implementa o tratamento de parâmetros opcionais, permitindo que a tela funcione corretamente mesmo quando certos dados não são enviados. Dessa forma, a aplicação se torna mais flexível e evita erros causados pela ausência de informações não essenciais.
 
-Se quiser, posso ajudar a gerar esse arquivo pronto para você só copiar e colar — é só avisar!
+4. Passagem de parâmetros obrigatórios na tela de Perfil
+
 
 ## Telas do Aplicativo
 
