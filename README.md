@@ -34,15 +34,15 @@ Neste commit, é definido um valor para um parâmetro opcional na tela de pedido
 Este commit implementa o tratamento de parâmetros opcionais, permitindo que a tela funcione corretamente mesmo quando certos dados não são enviados. Dessa forma, a aplicação se torna mais flexível e evita erros causados pela ausência de informações não essenciais.
 
 4. Passagem de parâmetros obrigatórios na tela de Perfil
-
+Neste commit, são definidos parâmetros obrigatórios para a tela de perfil. Isso garante que informações essenciais estejam sempre presentes ao acessar essa tela, aumentando a consistência dos dados e evitando falhas no funcionamento.
 
 ## Telas do Aplicativo
 
 ### Tela de Login
-![Tela Login](app/src/imagens/login.png)
+![Tela Login](app/src/images/login.png)
 
 ### Tela de Menu
-![Tela Menu](app//srcimagens/menu.png)
+![Tela Menu](app/src/imagens/menu.png)
 
 ### Tela de Pedidos
 ![Tela Pedidos](app/src/imagens/pedidos.png)
