@@ -42,13 +42,13 @@ Neste commit, são definidos parâmetros obrigatórios para a tela de perfil. Is
 ![Tela Login](app/src/images/login.png)
 
 ### Tela de Menu
-![Tela Menu](app/src/imagens/menu.png)
+![Tela Menu](app/src/images/menu.png)
 
 ### Tela de Pedidos
-![Tela Pedidos](app/src/imagens/pedidos.png)
+![Tela Pedidos](app/src/images/pedidos.png)
 
 ### Tela de Perfil
-![Tela Perfil](app/src/imagens/perfil.png)
+![Tela Perfil](app/src/images/perfil.png)
 
 ## Tecnologias
 
